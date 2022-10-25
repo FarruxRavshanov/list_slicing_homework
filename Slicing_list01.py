@@ -6,5 +6,5 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    l = numbers[::1]
-    return numbers
+    l = numbers[::2]
+    return l

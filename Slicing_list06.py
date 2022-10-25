@@ -5,4 +5,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    d = list1[::3]
+    return d

@@ -6,6 +6,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    a = list1[0]
-    a = 'bridge'
-    return list1
+    a = list1[::-1]
+    return a
